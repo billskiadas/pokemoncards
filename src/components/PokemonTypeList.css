@@ -1,0 +1,10 @@
+.p-type-list {
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 4px;
+    z-index: -1;
+}

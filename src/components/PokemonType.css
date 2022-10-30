@@ -1,0 +1,5 @@
+.p-type-minimal {
+    filter: hue-rotate(20deg) brightness(0.8) saturate(1.5) drop-shadow(0px 0px 5px white);
+    -webkit-filter: hue-rotate(20deg) brightness(0.8) saturate(1.5) drop-shadow(0px 0px 5px white);
+    -moz-filter:hue-rotate(20deg) brightness(0.8) saturate(1.5) drop-shadow(0px 0px 5px white);
+}

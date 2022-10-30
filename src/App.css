@@ -1,0 +1,75 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+@font-face {
+  font-family: PokeFont;
+  src: url(./assets/ttf/PokemonSolid.ttf);
+}
+
+.App {
+  z-index: 1;
+}
+
+.pokeball-stripe {
+  background-color: rgb(47, 47, 47);
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  border: 2px solid rgb(12, 12, 12);
+}
+
+.dot {
+  position: absolute;
+  text-align: center;
+  height: 62px;
+  width: 62px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  margin-top: -1.5%;
+  border: 15px solid rgb(47, 47, 47);
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 6px;
+  bottom: 6px;
+  line-height: 50px;
+  font-size: 2em;
+  border-radius: 50%;
+  background-color: rgb(209, 202, 202);
+  color: white;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+}
+
+.pokefont-main {
+  text-align: center;
+  font-family: PokeFont;
+  color: #feca1b;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(212,103,103,1) 35%, rgba(106,140,147,1) 100%);
+  letter-spacing: 3px;
+  font-size: 50px;
+  -webkit-text-stroke: 2px #3761a8; /* width and color */
+}
+
+.poke-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: auto;
+  align-content: space-around
+}
