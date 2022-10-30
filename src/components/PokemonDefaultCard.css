@@ -14,7 +14,7 @@
     font-family: PokeFont;
     color: white;
     font-size: 21px;
-    letter-spacing: 6px;
+    letter-spacing: 0.1em;
     line-height: 1.6;
     -webkit-text-stroke: 0.09em rgba(0, 0, 0, 0.65); /* width and color */
 }
