@@ -29,10 +29,10 @@ function PokemonDefaultCard(props) {
                         <img className={!menuOpened?'main-image':''} height="190px" onClick={()=>setMenuOpened(true)} src={pokemonOfficialSprite || pokemonSpriteFront}/>
                     </div>
                     <div>
-                        {pokemonSpriteFront && <img alt='sprite-front' className={menuOpened? 'bounce': undefined} height='100px' src={pokemonSpriteFront}/>}
-                        {pokemonSpriteBack && <img alt='sprite-back' className={menuOpened?'bounce': undefined} height='100px' src={pokemonSpriteBack}/>}
-                        {pokemonSpriteFrontShinny&& <img alt='sprite-shinny-front' className={menuOpened? 'bounce':undefined} height='100px' src={pokemonSpriteFrontShinny}/>}
-                        {pokemonSpriteBackShinny && <img alt='sprite-shinny-back' className={menuOpened? 'bounce':undefined} height='100px' src={pokemonSpriteBackShinny}/>}
+                        {pokemonSpriteFront && <img alt='sprite-front' className={!menuOpened? 'bounce': undefined} height='100px' src={pokemonSpriteFront}/>}
+                        {pokemonSpriteBack && <img alt='sprite-back' className={!menuOpened?'bounce': undefined} height='100px' src={pokemonSpriteBack}/>}
+                        {pokemonSpriteFrontShinny&& <img alt='sprite-shinny-front' className={!menuOpened? 'bounce':undefined} height='100px' src={pokemonSpriteFrontShinny}/>}
+                        {pokemonSpriteBackShinny && <img alt='sprite-shinny-back' className={!menuOpened? 'bounce':undefined} height='100px' src={pokemonSpriteBackShinny}/>}
                     </div>
                 </div>
                 <PokemonTypeList ptypes={ptypes} />
